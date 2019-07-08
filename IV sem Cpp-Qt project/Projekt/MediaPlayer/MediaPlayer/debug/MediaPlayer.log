@@ -1,0 +1,8 @@
+﻿  Generate moc_predefs.h
+  UIC mainwindow.ui
+  System nie może odnaleźć określonej ścieżki.
+  RCC resources.qrc
+  System nie może odnaleźć określonej ścieżki.
+  MOC mainwindow.h
+  System nie może odnaleźć określonej ścieżki.
+D:\Programy\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 3.

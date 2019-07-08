@@ -1,0 +1,16 @@
+Trasa z: Katowice do Torun wynosi w sumie 355.000000 km.
+Przez Lodz 190.000000 km
+Przez Czestochowa 70.000000 km
+
+Trasa z: Krakow do Poznan wynosi w sumie 465.000000 km.
+Przez Lodz 260.000000 km
+Przez Czestochowa 140.000000 km
+Przez Katowice 70.000000 km
+
+Trasa niemozliwa do wyznaczenia.
+
+Trasa z: Gliwice do Jaslo wynosi w sumie 212.000000 km.
+Przez Tarnow 162.000000 km
+Przez Krakow 92.000000 km
+Przez Katowice 22.000000 km
+

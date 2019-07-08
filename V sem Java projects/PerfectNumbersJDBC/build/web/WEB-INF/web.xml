@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>CheckNumber</servlet-name>
+        <servlet-class>pl.polsl.lab.servlet.CheckNumber</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PerfectNumInRange</servlet-name>
+        <servlet-class>pl.polsl.lab.servlet.checkingPNInTheRange</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NthPerfectNum</servlet-name>
+        <servlet-class>pl.polsl.lab.servlet.NthPerfectNum</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HistoryCalculate</servlet-name>
+        <servlet-class>pl.polsl.lab.servlet.HistoryCalculate</servlet-class>
+    </servlet>
+    
+     <context-param>
+        <param-name>driver</param-name>
+        <param-value>org.apache.derby.jdbc.ClientDriver</param-value>
+    </context-param>
+    <context-param>
+        <param-name>url</param-name>
+        <param-value>jdbc:derby://localhost:1527/lab</param-value>
+    </context-param>
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>lab</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>lab</param-value>
+    </context-param>
+    
+    <servlet-mapping>
+        <servlet-name>CheckNumber</servlet-name>
+        <url-pattern>/CheckNumber</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistoryCalculate</servlet-name>
+        <url-pattern>/HistoryCalculate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PerfectNumInRange</servlet-name>
+        <url-pattern>/PerfectNumInRange</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NthPerfectNum</servlet-name>
+        <url-pattern>/NthPerfectNum</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

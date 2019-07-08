@@ -1,0 +1,9 @@
+ZAD. 9)	Napisaæ program - obiektow¹ bazê danych o zbiorach noœników audiowizualnych. 
+Za³o¿yæ, ¿e zbiory zawieraj¹ kasety audio, kasety wideo, p³yty. 
+Nale¿y umo¿liwiæ wprowadzanie danych, zapisywanie i odczytywanie z dysku.
+
+WSKAZÓWKI i UWAGI:
+•	ka¿da grupa noœników powinna byæ reprezentowana przez odpowiedni¹ klasê zapewniaj¹c¹ takie us³ugi jak 
+	edycja danych zwi¹zanych z obiektem danej klasy, zapis i odczytywanie.
+•	wszystkie klasy powinny zostaæ wyprowadzone ze wspólnej klasy bazowej Pozycja.
+•	w pamiêci utworzyæ strukturê dynamiczn¹ - listê zawieraj¹ca elementy typu Pozycja.

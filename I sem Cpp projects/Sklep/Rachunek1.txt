@@ -1,0 +1,6 @@
+Banan 7 * 2z³ = 14z³
+Kiwi 1 * 1z³ = 1z³
+Zbyt ma³a liczba produktu Pomarañcza w sklepie
+Chleb 15 * 6z³ = 90z³
+Bu³ka 1 * 0.5z³ = 0.5z³
+SUMA: 105.5

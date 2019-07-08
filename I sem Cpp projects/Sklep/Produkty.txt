@@ -1,0 +1,7 @@
+Banan 10 2
+Bu³ka 5 0.5
+Chleb 15 6
+Jab³ko 1 3
+Kiwi 3 1
+Pomarañcza 10 2
+

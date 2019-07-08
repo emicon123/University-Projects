@@ -1,0 +1,7 @@
+Fizyka
+dr inz. Albert Einstein
+Rick Sanchez 13713 5.0 2018-11-11
+Stephen Hawking 98981 5.0 2015-02-28
+Issac Newton 11111 3.0 1660-03-14
+Jerzy Bodzenta 10000 5.0 2016-02-27
+Walter White 22222 3.5 2013-08-02
